@@ -1,0 +1,60 @@
+/*.container-fluid {
+	opacity: 0.3;
+	filter: alpha(opacit =30);
+}*/
+body {
+	background-image: url("images/portBack.jpg");
+	background-attachment: fixed;
+	background-repeat: round;
+	background-size: 100%;
+}
+p {
+	font-size: 20px;
+	font-weight: 20px;
+	font-family: 'Anton', sans-serif;
+	color: white;
+}
+h2 {
+	font-size: 18px;
+	font-family: 'Anton', sans-serif;
+	color: white;
+}
+#conpan {
+	opacity: 0.3;
+    filter: alpha(opacity=30);
+    margin: 20px 20px;
+    float: right;
+    box-shadow: 8px;
+}
+#navtop {
+	opacity: 0.3;
+    filter: alpha(opacity=30);
+	margin: 20px 20px;
+	padding: 30px 30px;
+	font-size: 30px;
+	font-weight: 20px;
+	box-shadow: 10px;
+	font-family: 'Anton', sans-serif;
+	color: white;
+	background-color: white;
+}
+#bs-example-navbar-collapse-1 {
+	color: white;
+}
+.navbar-brand{
+	font-size: 30px;
+	padding: 20px;
+	color: white;
+}
+.work {
+	margin: 30px;
+	padding: 20px;
+	border: 15px;
+	color: white;
+	font-size: 26px;
+	font-family: 'Shrikhand', cursive;
+}
+#connect {
+	margin: 10px 10px;
+	padding: 20px;
+}
