@@ -9,7 +9,7 @@ body {
 	background-size: 100%;
 }
 p {
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 20px;
 	font-family: 'Anton', sans-serif;
 	color: white;
@@ -22,22 +22,29 @@ h2 {
 #conpan {
 	opacity: 0.3;
     filter: alpha(opacity=30);
+    background-color: white;
     margin: 20px 20px;
     float: right;
     box-shadow: 8px;
 }
 #navtop {
-	opacity: 0.3;
-    filter: alpha(opacity=30);
+	opacity: 0.6;
+    filter: alpha(opacity=60);
 	margin: 20px 20px;
 	padding: 30px 30px;
 	font-size: 30px;
 	font-weight: 20px;
 	box-shadow: 10px;
 	font-family: 'Anton', sans-serif;
-	color: white;
+	font-color: blue;
 	background-color: white;
 }
+ #navtop {
+        -vendor-animation-duration: 3s;
+        -vendor-animation-delay: 2s;
+        -vendor-animation-iteration-count: infinite;
+        }
+
 #bs-example-navbar-collapse-1 {
 	color: white;
 }
